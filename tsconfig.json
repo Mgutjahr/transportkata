@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es2017",
+    "module": "commonjs",
+    "declaration": true,
+    "esModuleInterop": true,
+    "checkJs": false,
+    "sourceMap": true,
+    "types": ["node", "jest"],
+    "lib": [
+      "es2017",
+      "esnext",
+      "esnext.asynciterable",
+      "dom"
+    ]
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.test.ts"
+  ]
+}
